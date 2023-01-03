@@ -1,0 +1,117 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+}
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid red;
+  margin-right: -35px;
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.main {
+  background: url("lunchcopy.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+h1 {
+  font-size: 700;
+}
+
+.btn1:hover {
+  background-color: red;
+}
+
+.apple {
+  background: url("girleating1.jpg") no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.news {
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+.news input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.news::placeholder {
+  color: white;
+}
+
+.news p {
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
